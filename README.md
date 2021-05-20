@@ -1,3 +1,28 @@
+# React Redux Tutorial
+
+## Test Redux in browser console(2nd Commit):
+
+```javascript
+  $ store.getState();
+  >> {articles: Array(0)}articles: []__proto__: Object
+
+  $ store.subscribe(() => console.log('Look ma, Redux!!'));
+  >> ƒ unsubscribe() {
+        if (!isSubscribed) {
+          return;
+        }
+
+        if (isDispatching) {
+          throw new Error( false ? undefined : 'You may not unsubscribe from a store listener while the re…'
+
+  $ store.dispatch( addArticle({ title: 'React Redux Tutorial for Beginners', id: 1 }) );
+  >> VM149:1 Look ma, Redux!!
+  {type: "ADD_ARTICLE", payload: {…}}payload: {title: "React Redux Tutorial for Beginners", id: 1}type: "ADD_ARTICLE"__proto__: Object
+
+  $ store.getState();
+  >> {articles: Array(1)}articles: Array(1)0: {title: "React Redux Tutorial for Beginners", id: 1}length: 1__proto__: Array(0)__proto__: Object
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
