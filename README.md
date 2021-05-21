@@ -1,6 +1,6 @@
 # React Redux Tutorial
 
-## Test Redux in browser console(2nd Commit):
+## Test Redux in browser console (2nd Commit):
 
 ```javascript
   $ store.getState();
@@ -22,6 +22,30 @@
   $ store.getState();
   >> {articles: Array(1)}articles: Array(1)0: {title: "React Redux Tutorial for Beginners", id: 1}length: 1__proto__: Array(0)__proto__: Object
 ```
+<hr>
+
+## React and Redux at work! (3rd Commit):
+
+<div id="root">
+  <div>
+    <h2>Articles</h2>
+    <ul>
+      <li>Blog 1</li>
+      <li>Blog 2</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Add a new article</h2>
+    <form>
+      <div>
+        <label for="title">Title</label>
+        <input type="text" id="title" value="">
+      </div>
+      <button type="submit">SAVE</button>
+    </form>
+  </div>
+</div>
+<hr>
 
 # Getting Started with Create React App
 
