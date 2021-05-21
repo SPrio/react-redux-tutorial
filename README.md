@@ -47,7 +47,12 @@
 </div>
 <hr>
 
-# Getting Started with Create React App
+## Added Redux Midleware (4th Commit):
+When you try to add a article with spam/money in it, it Will not save the article and eventually will not appear in the list.
+<hr>
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
